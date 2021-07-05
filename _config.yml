@@ -10,13 +10,13 @@ name: 주수호 (suho chu)
 title: Backend Developer
 email: braum6138@gmail.com
 # # email_title: Email (Email title override)
-# phone: Your phone number (optional)
+phone: 010 - 2808 -4674
 # # phone_title: Phone (Phone title override)
 # website: Your website (eg. https://google.com)(optional)
 # # website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
-darkmode: true
+darkmode: false
 
 # Social links
 # twitter_username: jekyllrb
@@ -54,6 +54,7 @@ about_profile_image: Directory of profile image (eg. images/profile.jpg)
 about_content: | # this will include new lines to allow paragraphs
   백엔드 개발자 주수호 입니다.
 
+
   You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
     - Lists
     - Tables
@@ -84,13 +85,21 @@ content:
     content:
       - layout: right
         title: Company name
+        sub_title: 서버관리, 서버자동화 처리를 위한 쉘스크립트, 파워쉘스크립트를 개발
+        caption: 2018 ~
+        link: Link to company (optional)
+        quote: >
+          Short description of the company (optional)
+        description: | # this will include new lines to allow paragraphs
+          Description of role
+        title: Company name
         sub_title: Job title
         caption: Date Range (eg. November 2016 - present)
         link: Link to company (optional)
         quote: >
           Short description of the company (optional)
         description: | # this will include new lines to allow paragraphs
-          Description of role
+          Description of role          
   - title: Education
     layout: list
     content:
