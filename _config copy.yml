@@ -62,6 +62,19 @@ about_content: | # this will include new lines to allow paragraphs
 
   팀내에 선정산 서비스 프로젝트를 책임지고 개발하고 있습니다.
 
+  #### 대표적으로 사용하는 기술/언어
+  - PHP, JAVASCRIPT, PYTHON
+  - MYSQL, POSTGRESQL
+  - AWS - S3, EC2, Emplify, Load-balancer
+  - Docker
+  - Django, Node.js
+
+  #### 관심있어하는 기술
+  - Redis
+  - Message Broker
+  - MSA
+  - 부하분산처리를 할 수있는 다양한 방법들
+
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
@@ -85,20 +98,19 @@ content:
     layout: list
     content:
       - layout: right
-        title: GIIP
-        # sub_title: 닷넷프레임워크기반으로 만들어진 RPA솔루션 입니다.
+        title: Company name
+        sub_title: 서버관리, 서버자동화 처리를 위한 쉘스크립트, 파워쉘스크립트를 개발
         caption: 2018 ~
-        link: https://github.com/LowyShin/giipdoc-ko/wiki
+        link: Link to company (optional)
         quote: >
-          닷넷프레임워크기반으로 만들어진 RPA솔루션 입니다.
+          Short description of the company (optional)
         description: | # this will include new lines to allow paragraphs
-          서버내부에서 자동화처리를 할 수 있도록
-          쉘스크립트와 파워쉘스크립트를 이용하여 상황에 맞는 스크립트를 작성하였습니다.
-          다양한 회사와 POC를 하며, 빌드와 스크립트작업을 주도적으로 진행하였습니다.
-    content:      
-        title: 테스트웍스
-        # sub_title: Job title
-        caption: 2020.6 ~
+          Description of role
+
+          
+        title: Company name
+        sub_title: Job title
+        caption: Date Range (eg. November 2016 - present)
         link: Link to company (optional)
         quote: >
           Short description of the company (optional)
@@ -115,7 +127,7 @@ content:
           Short institution or course description (optional)
         description: | # this will include new lines to allow paragraphs
           
-  - title: 견고하고 튼튼한 인프라를 구축할 수 있는 그런 개발자가 되고 싶습니다.
+  - title: 견고한 서비스를 개발하는 사람이 되고 싶습니다.
     layout: text
     content: | # this will include new lines to allow paragraphs
       This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
