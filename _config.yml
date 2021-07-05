@@ -62,6 +62,19 @@ about_content: | # this will include new lines to allow paragraphs
 
   팀내에 선정산 서비스 프로젝트를 책임지고 개발하고 있습니다.
 
+  #### 대표적으로 사용하는 기술/언어
+  - PHP, JAVASCRIPT, PYTHON
+  - MYSQL, POSTGRESQL
+  - AWS - S3, EC2, Emplify, Load-balancer
+  - Docker
+  - Django, Node.js
+
+  #### 관심있어하는 기술
+  - Redis
+  - Message Broker
+  - MSA
+  - 부하분산처리를 할 수있는 다양한 방법들
+
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)

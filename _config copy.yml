@@ -100,7 +100,7 @@ content:
       - layout: right
         title: Company name
         sub_title: 서버관리, 서버자동화 처리를 위한 쉘스크립트, 파워쉘스크립트를 개발
-        caption: 2018 ~
+        caption: 2018.12 ~
         link: Link to company (optional)
         quote: >
           Short description of the company (optional)
@@ -108,7 +108,7 @@ content:
           Description of role
 
           
-        title: Company name
+        title: 테스트웍스
         sub_title: Job title
         caption: Date Range (eg. November 2016 - present)
         link: Link to company (optional)
