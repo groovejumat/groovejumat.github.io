@@ -1,5 +1,5 @@
 # Site
-repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
+# repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
 # favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
 
 # Content configuration version
@@ -9,109 +9,103 @@ version: 2
 name: 주수호 (suho chu)
 title: Backend Developer
 email: braum6138@gmail.com
-# # email_title: Email (Email title override)
 phone: 010 - 2808 -4674
-# # phone_title: Phone (Phone title override)
-# website: Your website (eg. https://google.com)(optional)
-# # website_title: Web (Website title override)
 
-# Dark Mode (true/false/never)
 darkmode: false
 
-# Social links
-# twitter_username: jekyllrb
-# github_username:  jekyll
-# stackoverflow_username: "00000001"
-# dribbble_username: jekyll
-# facebook_username: jekyll
-# flickr_username: jekyll
-# instagram_username: jekyll
-# linkedin_username: jekyll
-# xing_username: jekyll
-# pinterest_username: jekyll
-# youtube_username: jekyll
-# googleplus_username: +jekyll
-# orcid_username: 0000-0000-0000-0000
-
-# Additional icon links
-additional_links:
-- title: Link name
-  # icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-  # url: Link url (eg. https://google.com)
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-#   url: Link url (eg. https://google.com)
-
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
-
-# About Section
-# about_title: About Me (Use this to override about section title)
-about_profile_image: images/profile.jpg
+about_profile_image: images/suho.png
 about_content: | # this will include new lines to allow paragraphs
-  안녕하세요. 백엔드 개발자 주수호 입니다.
+  안녕하세요. 2년 6개월차 백엔드 개발자 주수호 입니다. 현재는 "데일리핀딩" 이라는 회사에서 쿠팡,티몬,위메프와 같은 판매스토어를 이용하고 계시는 셀러분들을 위한 선정산서비스 시스템을 개발 및 유지보수하고 있습니다.
 
-  현재는 "데일리페이" 라는 회사에서 쿠팡,티몬,위메프와 같은 판매스토어를 이용하고 계시는 셀러분들을 위한
+  기본적인 페이지 개발도 진행하고 있지만, 주로 우분투환경에서 백엔드로직 개발과 쉘스크립트를 통한 배치작업을 메인으로 하고 있으며, 팀내에 선정산 서비스 프로젝트를 책임지고 개발하고 있습니다.
 
-  선정산서비스 시스템을 개발 및 유지보수 하고 있습니다.
+  새로운 기술을 익히는 것에 거부감을 느끼지않고, 의사소통을 적극적으로 하며 서로의 상황을 공유하려 애씁니다.
 
-  기본적인 페이지 개발도 하고 있지만, 주로 우분투환경과 백엔드로직 개발을 메인으로 하고 있으며,
+  회사의 개발문화에 빠르게 적응을 하는 스타일이고, 문제상황이나 장애상황에 대한 부분을 빠르게 파악하여 해결하는 부분이 저의 장점입니다.
 
-  팀내에 선정산 서비스 프로젝트를 책임지고 개발하고 있습니다.
+  <br>
   
   ---
 
   #### 대표적으로 사용하는 기술/언어
+  <br>
   - PHP, JAVASCRIPT, PYTHON
   - MYSQL, POSTGRESQL
   - AWS - S3, EC2, Emplify, Load-balancer
   - Docker
-  - Django, Node.js
+  - Django Framework
 
   ---
 
   #### 관심있어하는 기술
+  <br>
   - Redis
-  - Message Broker
+  - Message Broker(RabbitMQ)
   - MSA
-  - 부하분산처리를 할 수있는 다양한 방법들
+  - 부하분산처리를 하기 위한 다양한 솔루션들에 대해서 관심이 많습니다.
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
-        additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        quote: >
-          Short overview of the project (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
+
   - title: Experience
     layout: list
     content:
-      - layout: right
+      - layout: left
+        title: 데일리펀딩
+        sub_title: P2P로 투자자와 고객을 연결해주는 금융플랫폼입니다.
+        caption: 2021.3 ~
+        link: https://brunch.co.kr/@dailian#articles
+        link_text : 회사브런치
+        description: 
+        | # this will include new lines to allow paragraphs
+          현재 데일리펀딩에서 제공하는 서비스 중 선정산시스템에 대해서 백엔드 개발/관리자 페이지를 통한 배치작업 관리기능 개발
+          유지 보수 진행하고 있습니다.<br>
+          각 개인스토어 제공 플랫폼에 인증시스템을 파악하여, 등록되어진 유저정보를 통해 고객 판매데이터를 스크래핑하여 수집하여 ltv산정 로직을 개발하였습니다.<br>
+          현재 쿠팡 선정산서비스 개발을 마쳤으며, 추가적인 리스크발생에 대한 방지를 개발하고 있습니다.
+
+
+      - layout: left
+        title: 테스트웍스
+        sub_title: 블랙올리브라는 프로젝트에서 백엔드/서버관리 작업을 진행했습니다.
+        caption: 2020.6 ~
+        link: https://www.testworks.co.kr/contents/blackolive.html
+        link_text : 블랙올리브 서비스 안내 링크
+        description: |
+          AI학습용 태깅데이터를 수집하는 서비스입니다. Postgresql에서 여러 테이블로 연결되어진 복잡한 테깅 데이터들을
+          다룰 수 있도록 django프레임워크를 통해서 api와 serializer개발을 진행하였습니다. 
+          <br>
+          수집되어지는 대량의 xml데이터들을
+          정기적으로 클라우드 스토리지에 백업하는 작업을 진행하였고, docker를 통한 해당 어플리케이션의 컨테이너 관리작업도 진행하였습니다.
+          <br>
+          메인서비스에서 블랙올리브서비스에 참여시 해당 계정정보가 동기화되어질 수 있도록 하는 작업을 진행하였습니다.
+    
+      - layout: left
         title: GIIP
-        # sub_title: 닷넷프레임워크기반으로 만들어진 RPA솔루션 입니다.
-        caption: 2018 ~
+        sub_title: 닷넷프레임워크기반으로 만들어진 RPA솔루션 입니다.
+        caption: 2018.12 ~
         link: https://github.com/LowyShin/giipdoc-ko/wiki
-        quote: >
-          닷넷프레임워크기반으로 만들어진 RPA솔루션 입니다.
-        description: | # this will include new lines to allow paragraphs
+        link_text : GIIP위키 글
+        description: | 
           서버내부에서 자동화처리를 할 수 있도록
-          쉘스크립트와 파워쉘스크립트를 이용하여 상황에 맞는 스크립트를 작성하였습니다.
-          다양한 회사와 POC를 하며, 빌드와 스크립트작업을 주도적으로 진행하였습니다.
+          쉘스크립트와 파워쉘스크립트를 이용하여 요구사항에 맞는 스크립트를 작성하였습니다.
+          다양한 회사와 POC를 하며, 빌드작업과 테스트,스크립트작업을 주도적으로 진행하였습니다.
+          <br>
+          VMWARE EXSI를 통해서 극초기 스타트업을 하시는 분들에게 서버를 생성하여 제공해드리는 작업을 진행하였고,
+          해당 서버에 대한 모니터링 작업도 함께 진행하였습니다.
+
+
+  - title: Portfolio # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: 포트폴리오 PPT
+        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        link_text: Link Text
+        description: | # this will include new lines to allow paragraphs
+          개발자로써 준비하기 위한 7개월의 기간동안 초기에 만든 작품들입니다.
+
+        
+           
+                          
     # content:      
     #     title: 테스트웍스
     #     # sub_title: Job title
@@ -124,21 +118,18 @@ content:
   - title: Education
     layout: list
     content:
-      - layout: top-right
-        title: 부산대학교 조경학과, IT응용공학과 부전공 이수
+      - layout: top-left
+        title: 부산대학교 조경학과, IT응용공학과 부전공
         # sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
-        quote: >
-          Short institution or course description (optional)
-        description: | # this will include new lines to allow paragraphs
+        caption: Date Range (eg. 2011 - 2019)
+        description: 
           
-  - title: 견고하고 튼튼한 인프라를 구축할 수 있는 그런 개발자가 되고 싶습니다.
+  - title: 견고하고 튼튼한 서비스를 구축할 수 있는 엔지니어가 되고 싶습니다.
     layout: text
     content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
-
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
-
+      새로운 것을 추구하는 것도 중요하지만, 항상 기본에 충실하려고 노력하고 있습니다.
+      유지보수가 개발에 있어서 얼마나 중요한지 알고 있고, 그렇기에 항상 신중히
+      생각하고, 상황공유와 생각을 적극적으로 팀원들에게 공유하고 이야기 합니다.
 # Footer
 footer_show_references: true
 # references_title: References on request (Override references text)
